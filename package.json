@@ -1,24 +1,27 @@
 {
-    "name": "Ideabox",
-    "version": "0.0.1-alpha",
-    "description": "Collborate and track ideas with an extremely accessible and minimalistic web app.",
-    "main": "server.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "http://github.com/bitfed/ideabox.git"
-    },
-    "keywords": [
+  "name": "Ideabox",
+  "version": "0.0.1-alpha",
+  "description": "Collborate and track ideas with an extremely accessible and minimalistic web app.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/bitfed/ideabox.git"
+  },
+  "keywords": [
     "q&a",
     "stack exchange",
     "collborate"
   ],
-    "author": "bitfed",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/bitfed/ideabox/issues"
-    },
-    "homepage": "https://github.com/bitfed/ideabox"
+  "author": "bitfed",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bitfed/ideabox/issues"
+  },
+  "homepage": "https://github.com/bitfed/ideabox",
+  "dependencies": {
+    "express": "^4.12.4"
+  }
 }

@@ -1,6 +1,22 @@
-body {
-    background-color: darkslategray;
+/*
+*/
+
+header {
+    background-color: indianred;
+    height: 4em;
+    overflow-y: hidden;
 }
-h2 {
-    color: indianred;
+.title {
+    color: darkslategray;
+    margin: 0;
+    padding: 0.4em 0;
+    display:inline-block;
+
+}
+header .menuButton {
+    height: 1em;
+    width: 1em;
+    margin: 0 1em;
+    background-color: darkslategray;
+    display: inline-block;
 }

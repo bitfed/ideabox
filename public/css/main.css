@@ -7,6 +7,10 @@ header {
     height: 4em;
     overflow-y: hidden;
 }
+body {
+    background-color: lightgray;
+    height: 100%;
+}
 .title {
     color: darkslategray;
     margin: 0;
@@ -23,22 +27,23 @@ header .menuButton {
 }
 
 .ideaBox {
-    padding: 1em;
-/*    background-color: green;*/
+    overflow-y: auto;
 }
 
 .idea {
-/*    background-color: blue;*/
-    margin: 1em 0 0;
+    background-color: white;
+    margin: 0.5em;
+    padding: 1em;
 }
 
 .idea:first-of-type {
-    margin: 0;
+    margin: 0.5em;
 }
 .ideaLogo {
     width: 2em; height: 2em;
     float: left;
     background-color: cadetblue;
+    background-image: url(http://lorempixel.com/100/100/abstract);
     margin-right: 0.5em;
 }
 .ideaTitle {

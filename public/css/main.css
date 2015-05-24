@@ -1,4 +1,5 @@
-/*
+/* TODO
+    - wtf margin?
 */
 
 header {
@@ -19,4 +20,36 @@ header .menuButton {
     margin: 0 1em;
     background-color: darkslategray;
     display: inline-block;
+}
+
+.ideaBox {
+    padding: 1em;
+/*    background-color: green;*/
+}
+
+.idea {
+/*    background-color: blue;*/
+    margin: 1em 0 0;
+}
+
+.idea:first-of-type {
+    margin: 0;
+}
+.ideaLogo {
+    width: 2em; height: 2em;
+    float: left;
+    background-color: cadetblue;
+    margin-right: 0.5em;
+}
+.ideaTitle {
+    margin: 0;
+}
+.ideaDescription {
+    margin: 0;
+}
+.voter {
+    float: right;
+    background-color: cadetblue;
+    height: 2em; width: 2em;
+    margin: 0;
 }

@@ -32,12 +32,14 @@ header .menuButton {
 
 .idea {
     background-color: white;
-    margin: 0.5em;
-    padding: 1em;
+    margin: 1.25em 0.5em 0.5em;
+/*    margin-top: ;*/
+    padding: 1em 1em 0;
 }
 
 .idea:first-of-type {
-    margin: 0.5em;
+    margin-top: 0.5em;
+/*    margin-bottom: 0;*/
 }
 .ideaLogo {
     width: 2em; height: 2em;
@@ -45,6 +47,7 @@ header .menuButton {
     background-color: cadetblue;
     background-image: url(http://lorempixel.com/100/100/abstract);
     margin-right: 0.5em;
+    border-radius: 100%;
 }
 .ideaTitle {
     margin: 0;
@@ -57,4 +60,17 @@ header .menuButton {
     background-color: cadetblue;
     height: 2em; width: 2em;
     margin: 0;
+    border-radius: 100%;
+}
+
+
+
+.readMore {
+    color: white;
+    background-color: darkslategray;
+    font-size: 0.75em;
+    position: relative; bottom: -1em;
+    display: block;
+    margin: -0.5em auto 0;
+
 }

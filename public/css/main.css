@@ -54,6 +54,11 @@ header .menuButton {
 }
 .ideaDescription {
     margin: 0;
+    max-height: 5em;
+    overflow: hidden;
+    background: -webkit-linear-gradient(#333 76%, #fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .voter {
     float: right;

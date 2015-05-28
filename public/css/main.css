@@ -6,7 +6,7 @@ body {
     background-color: lightgray;
 }
 body > header {
-    background-color: indianred;
+    background-color: #CD5C5C;
     height: 4em;
     overflow-y: hidden;
 }

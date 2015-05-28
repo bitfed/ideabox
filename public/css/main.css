@@ -39,7 +39,7 @@ body > header {
 }
 
 .idea:first-of-type {
-    margin-top: 0.5em;
+    margin: 0.5em;
 /*    margin-bottom: 0;*/
 }
 .ideaHeader {
@@ -58,7 +58,9 @@ body > header {
 }
 .ideaDescription {
     font-family: serif;
+    font-size: 1.25em;
     margin: 0;
+    padding: 0.25em 0.25em;
     max-height: 5em;
     overflow: hidden;
     background: -webkit-linear-gradient(#333 76%, #fff);

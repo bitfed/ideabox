@@ -2,16 +2,16 @@
     - wtf margin?
 */
 
-header {
-    background-color: indianred;
-    height: 4em;
-    overflow-y: hidden;
-}
 body {
     background-color: lightgray;
 /*    height: 100%;*/
 }
-.title {
+body > header {
+    background-color: indianred;
+    height: 4em;
+    overflow-y: hidden;
+}
+.branding {
     color: darkslategray;
     margin: 0;
     padding: 0.4em 0;
@@ -28,6 +28,8 @@ header .menuButton {
 
 .ideaBox {
 /*    overflow-y: hidden;*/
+    margin: 0 auto 1em;
+    max-width: 40em;
 }
 
 .idea {
@@ -41,16 +43,19 @@ header .menuButton {
     margin-top: 0.5em;
 /*    margin-bottom: 0;*/
 }
+.ideaHeader {
+    text-align: center;
+}
 .ideaLogo {
     width: 2em; height: 2em;
     float: left;
     background-color: cadetblue;
     background-image: url(http://lorempixel.com/100/100/abstract);
-    margin-right: 0.5em;
+    margin-top: 0;
     border-radius: 100%;
 }
 .ideaTitle {
-    margin: 0;
+    margin: 0 1.25em 0;
 }
 .ideaDescription {
     margin: 0;

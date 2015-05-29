@@ -55,6 +55,7 @@ body > header {
 }
 .ideaTitle {
     margin: 0 1.25em 0;
+    text-transform: capitalize;
 }
 .ideaDescription {
     font-family: serif;

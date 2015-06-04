@@ -4,6 +4,7 @@
 }
 .ideaDescription {
       font-family: serif;
+      font-size: 1.25em;
 }
 /* ********* */
 
@@ -73,7 +74,6 @@ body > header {
   text-transform: capitalize;
 }
 .ideaDescription {
-    font-size: 1.25em;
     margin: 0;
     padding: 0 0.25em;
 /*
